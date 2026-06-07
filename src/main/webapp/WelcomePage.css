@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #F6F9F7;
+  height: auto;
+  width: 100%;
+  font-family: "Segoe UI", sans-serif;
+}
+
+nav {
+  .logo {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    color: #34462e;
+  }
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+
+  #heading {
+    font-family: 'Poppins', sans-serif;
+    font-size: 150px;
+    font-weight: 500;
+    color: #34462e;
+  }
+
+  .cards {
+    display: flex;
+    gap: 40px;
+
+
+    .signin {
+      padding: 30px 50px;
+      border: 3px solid rgb(0, 110, 0);
+      border-radius: 10px;
+
+      a {
+        text-decoration: none;
+        color: #2e7d32;
+      }
+    }
+
+    .signup {
+      padding: 30px 50px;
+      border: 3px solid rgb(0, 110, 0);
+      border-radius: 10px;
+
+      /* background-color: #e0f7d9; */
+      a {
+        text-decoration: none;
+        color: #2e7d32;
+      }
+    }
+  }
+}
